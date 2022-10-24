@@ -2,7 +2,7 @@ ROOKI = ROOKI or {}
 ROOKI.chatSync = ROOKI.chatSync or {}
 
 ROOKI.chatSync.config = {
-    webHookUrl = "https://discord.com/api/webhooks/1033994912452063302/m-kPqC4oiURViS5Lba5zydXokI6SmjfJl__J8NAC5GPkXxNd7-KHDIotNwWeAX5R95lq",
+    webHookUrl = "Avalidwebhookfromdiscordorguilded.de",
     ignorePrefixes = {
         "/",
         "!",
