@@ -63,8 +63,6 @@ hook.Add("PlayerSay", "ROOKI.chatSync.Chat", function(ply, txt, tc)
         res = createEmbed(ply, txt)
     end
 
-    print("Sending request:", util.TableToJSON(res))
-
     reqwest({
         method = "POST",
         url = ROOKI.chatSync.config.webHookUrl,
